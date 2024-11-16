@@ -1,0 +1,49 @@
+.not-home-main .floatingDiv{
+    display: none;
+}
+.blueDiv{
+    position: absolute;
+    width: 100%;
+}
+.not-home-main .footerTow .Footer{
+    padding-top: 200px;
+}
+.footertwoCntne{
+    background-color: var(--main-color);
+    height: 130px;
+    color: white;
+    padding: 0px 50px !important;
+}
+.blueDivSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.3%;
+}
+.blueDivSection:not(:nth-child(3)){
+    border-right: 1px solid #5B6BFF;
+
+}
+.footertwoIcon{
+    padding: 12px;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 23px;
+    color: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    border: 1px dashed var(--main-color);
+}
+.footertowText p{
+    margin-bottom: 0;
+}
+.footertowText p:first-of-type{
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.footertowText .footertwoBold{
+    font-size: 1.1rem;
+    font-weight: 800;
+}

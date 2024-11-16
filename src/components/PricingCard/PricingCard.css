@@ -1,0 +1,63 @@
+.PricingCard{
+    width: 100%;
+    border: 1px solid var(--border-light);
+}
+.planType{
+    background-color: var(--main-color);
+}
+.cloud{
+    width: 60px;
+}
+.planType-headign{
+    font-size: 18px;
+    margin-bottom: 0;
+    font-family:"Plus Jakarta Sans", sans-serif
+} 
+.leftPlanType .Price-per{
+    font-size: 14px;
+    font-weight: bold;
+}
+.leftPlanType .Price{
+    font-size: 26px;
+    font-weight: bold;
+}
+.PricingCard .featuers{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    padding-left: 0;
+    margin: 25px 0;
+}
+.PricingCard .featuers li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--light-text);
+    width: 100%;
+    flex-wrap: nowrap;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin: 4px 0;
+}
+.Avaliable{
+    color: var(--main-color);
+    font-size: 14px;
+}
+.notAvaliable{
+    color: red;
+    font-size: 14px;
+}
+.questionMark{
+    font-size: 17px;
+}
+.startNowPricing{
+    font-family:"Plus Jakarta Sans", sans-serif;
+    background-color: transparent;
+    border: 1px solid var(--border-light);
+    font: 16px;
+    color: var(--main-color);
+    font-weight: 400;
+}

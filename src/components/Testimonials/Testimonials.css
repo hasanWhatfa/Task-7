@@ -1,0 +1,110 @@
+.Testimonials{
+    background-color: var(--dark-background);
+    padding: 70px 0;
+    position: relative;
+    padding-top: 200px;
+
+}
+.Testimonials .mainPageContactUs .sectionHeading-h4,.Testimonials .mainPageContactUs .sectionHeading-h2{
+    color: var(--background-white);
+}
+.Testimonials .mainPageContactUs .sectionHeading-h4{
+    font-size: 14px;
+}
+.Testimonials .mainPageContactUs .sectionHeading-h2{
+    font-size: 23px;
+    width: 70%;
+}
+.Testimonials .mainPageContactUs .sectionHeading{
+    width: unset;
+}
+.Testimonials .mainPageContactUs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--main-color);
+    width: 100%;
+    padding: 35px 45px;
+    top: -200px;
+    transform: translateY(-50%);
+}
+.girlTalking{
+    width: 180px;
+}
+.contactButton{
+    background-color: var(--background-white);
+    color: var(--heading-color);
+    font-size: 14px;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Testimonials .mainPageContactUs .weirdShape{
+    width: 360px;
+    right: 340px;
+    bottom: -125px;
+}
+.Testimonials .testimoncontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+.Testimonials .testicards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Testimonials .testicards .TestimonialsCard:nth-child(2){
+    background-color: var(--main-color);
+}
+.Testimonials .testicards .TestimonialsCard:nth-child(2) .Cname,
+.Testimonials .testicards .TestimonialsCard:nth-child(2) .Cname + p ,
+.Testimonials .testicards .TestimonialsCard:nth-child(2) .someTalking,
+.Testimonials .testicards .TestimonialsCard:nth-child(2) 
+{
+    color: var(--background-white);
+}
+.sldingBar{
+    width: 30%;
+    height: 20px;
+    margin-top: 20px;
+    align-self: center;
+    background-color:#EBECFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.sldingBar div{
+    background-color: var(--main-color);
+    height: 100%;
+    width: 40%;
+}
+.testicardShape{
+    position: absolute;
+    bottom: 0;
+}
+@media (max-width:992px){
+    .TestimonialsCard{
+        width: 95% !important;
+    }
+    .Testimonials .testicards .TestimonialsCard:nth-child(1),.TestimonialsCard:nth-child(3){
+        display: none !important;
+    }
+    .Testimonials .mainPageContactUs {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--main-color);
+        width: 100%;
+        padding: 35px 45px;
+        top: -260px;
+        transform: translateY(-50%);
+    }
+}

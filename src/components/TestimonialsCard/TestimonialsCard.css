@@ -1,0 +1,43 @@
+.TestimonialsCard{
+    width: 32%;
+    background-color: var(--background-white);
+    padding: 20px;
+
+}
+.TestimonialsCard .starts{
+    color: #FCA21A;
+    margin-bottom: 10px;
+}
+.TestimonialsCard .someTalking{
+    font-size: 14px;
+    color: var(--light-text);
+}
+.TestimonialsCard .clientInfo{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 10px;
+}
+.TestimonialsCard .clientInfo .clientImage{
+    width: 50px;
+    margin-right: 10px;
+}
+.TestimonialsCard .clientInfo .Cname{
+    font-size: 16px;
+    margin-bottom: 0;
+    font-family:"Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.TestimonialsCard .clientInfo .Cname + p{
+    font-size: 14px;
+    margin-bottom: 0;
+    color: var(--light-text);
+    text-transform: capitalize;
+}
+.TestimonialsCard .quote{
+    color: #C4C9FF;
+    font-size: 50px;
+    bottom: 35px;
+    right: 27px;
+}

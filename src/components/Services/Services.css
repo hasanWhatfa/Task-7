@@ -1,0 +1,50 @@
+.services{
+    margin: 30px 0px;
+    width: 100%;
+}
+.servicesCards{
+    width: 100%;
+}
+.servicesCards .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    position: relative;
+}
+.servicesArrows{
+    top: -20%;
+    right: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.servicesArrows .iconContainer{
+    padding:10px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px 20px 0px #adb5bd;
+}
+.servicesArrows svg{
+    width:13px;
+    height: 13px;
+    max-height: 13px;
+}
+.servicesArrows .iconContainer:nth-child(2){
+    background-color: var(--main-color);
+}
+@media (max-width:992px){
+    .servicesCards .container{
+        flex-direction: column;
+    }
+    .SrviceCard{
+        width: 100% !important;
+    }
+    .servicesArrows{
+        display: none !important;
+    }
+    .bluePart .floatingContent iframe{
+        height: 300px !important;
+    }
+}

@@ -1,0 +1,112 @@
+.Footer{
+    background-color: var(--secondary-color);
+    padding: 170px 0 0 0;
+
+    p{
+        margin-bottom: 0;
+    }
+}
+.footer-contaienr{
+    margin-bottom: 30px;
+}
+.Footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 14px;
+    color: var(--background-white);
+    text-transform: capitalize;
+}
+.Footer .firstColumn{
+    img{
+        width: 150px;
+        margin-bottom:20px;
+    }
+    .footerIcons{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    .footerIcons .iconContainerFotter{
+        padding: 7px;
+        border: 1px solid white;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+}
+.blueBottomThing{
+    background-color: var(--main-color);
+    color: var(--background-white);
+    font-size: 14px;
+    padding: 14px 0;
+    font-weight: 500;
+}
+.footerLinksHeadig{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    svg{
+        font-size: 20px;
+        align-self: center;
+    }
+}
+.FooterLinks{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    li{
+        cursor: pointer;
+    }
+}
+.FooterVideos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.videoFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    img{
+        width: 55px;
+    }
+    .footerDate{
+        font-size: 12px;
+        color: var(--light-text);
+    }
+}
+.FooterInput{
+    font-size: 14px !important;
+}
+.check{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    input{
+        width:22px;
+    }
+    label{
+        font-size: 13px;
+    }
+    label span{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+.footer-Links-Bottom{
+    cursor: pointer;
+}
+.footer-Links-Bottom:hover{
+    text-decoration: underline;
+}
+.linkTOAnotherPage a{
+    text-decoration: none;
+    color: inherit;
+}

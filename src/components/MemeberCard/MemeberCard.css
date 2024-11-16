@@ -1,0 +1,45 @@
+/* clip-path: polygon(0 100%, 91% 82%, 100% 100%); */
+.MemeberCard{
+    padding: 10px;
+    min-height: 293px;
+    img{
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+    .memeberDesc{
+        background-color: var(--secondary-color);
+        text-align: center;
+        color: white;
+        text-transform: capitalize;
+        border-radius:0 0 10px 10px;
+        padding: 10px;
+        position: relative;
+        h4{
+            font-size: 20px;
+            font-family:"Plus Jakarta Sans", sans-serif;
+            font-weight: bold;
+            margin-bottom: 5px;
+            letter-spacing: 1px;
+        }
+        p{
+            font-size: 14px;
+            margin-bottom: 0;
+        }
+        .curvesMem{
+            width: 100%;
+            height: 100px;
+            top: -100px;
+            right: 0px;
+            background: var(--secondary-color);
+            clip-path: polygon(1% 1001%, 100% 100%, 100% 100%, 100% 81%, 0 100%); 
+        }
+    }
+}
+.shareIcon{
+    position: absolute;
+    top: -33px;
+    padding: 6px;
+    right: 20px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+}

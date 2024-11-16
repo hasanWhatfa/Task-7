@@ -1,0 +1,29 @@
+/* import ROBOTO font  
+mst be the main font*/
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* import PLUS JAKARTA font
+maybe for cards*/
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+/* import RAJDHANI font 
+for the sentence in the hero*/
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --background-white:#FFFFFF;
+    --main-color:#384BFF;
+    --secondary-color:#18185E;
+    --hero-border:#C3C8FF;
+    --ornage-bg:#F98600;
+    --heading-color:#0F0D1D;
+    --dark-background:#F3F7FB;
+    --light-text:#5F6D8A;
+    --border-light:#D4DCFF;
+    --dark-background:#F2F6FE;
+}
+.straightLine{
+    background-color: #D4DCFF;
+    height: 1px;
+    width: 100%;
+    display: block;
+}
+    /* font-family:"Plus Jakarta Sans", sans-serif */

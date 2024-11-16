@@ -1,0 +1,75 @@
+.NavBarTwo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    font-size: 14px;
+    padding: 7px 0;
+    background-color: var(--background-white);
+    z-index: 999;
+}
+.NavBarTwo div.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.NavBarTwo div.container .logo-navtwo{
+    width: 130px;
+}
+.NavBarTwo div.container .NavBarTwolinks{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        gap: 15px;
+        margin-bottom: 0;
+    }
+    ul li{
+        color: var(--heading-color);
+        font-weight: 600;
+        cursor: pointer;
+    }
+    ul li a{
+        text-decoration: none;
+        color:var(--heading-color);
+    }
+    .searchBtn{
+        border: none;
+        background: none;
+        font-size: 18px;
+    }
+}
+.NavBarTwo div.container .quoteBtn{
+    border: none;
+    padding: 8px 14px;
+    text-transform: capitalize;
+    font-weight: 600;
+    background-color: var(--background-white);    
+}
+.PlaneNav{
+    width: 70px;
+}
+.blueShape{
+    position: absolute;
+    z-index: -999;
+    width: 230px;
+    height: 100%;
+    right: 0;
+    background-color: var(--main-color);
+    /* clip-path: polygon(50% 0%, 0% 100%, 100% 100%); */
+}
+.thatTraingleThing{
+    position: absolute;
+    width: 58px;
+    height: 60%;
+    right: 217px;
+    background-color: var(--main-color);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transform: rotate(-90deg);
+    z-index: -999;
+}

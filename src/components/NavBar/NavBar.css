@@ -1,0 +1,124 @@
+.HW-Nav{
+    display: flex;
+    align-items: center;
+    width:84%;
+    position: fixed;
+    top:20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--background-white);
+    justify-content: space-between;
+    box-shadow: 0px 5px 0px 3px var(--hero-border);
+    border-radius: 400px;
+    padding: 15px 40px 15px 20px;
+    height: 53px;
+    z-index: 999;
+}
+.HW-Nav .links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 0;
+}
+.HW-Nav .links li{
+    font-size: 14px;
+    cursor: pointer;
+    color: var(--heading-color);
+}
+.HW-Nav .links li a{
+    text-decoration: none;
+    color: inherit;
+}
+.HW-Nav .navIcons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    font-size: 18px;
+}
+.HW-Nav img{
+    width: 140px
+}
+.HW-Nav button{
+    padding:0.6rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    background-color: var(--main-color);
+    color: var(--background-white);
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.MobileNav{
+    display: none;
+    align-items: center;
+    width:84%;
+    position: fixed;
+    top:20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--background-white);
+    justify-content: space-between;
+    box-shadow: 0px 5px 0px 3px var(--hero-border);
+    border-radius: 400px;
+    padding: 15px 40px 15px 20px;
+    height: 53px;
+    z-index: 999;
+}
+.bars{
+    color: var(--main-color);
+    cursor: pointer;
+}
+.MobileNav .nonLogo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.MobileNav .links{
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    background: white;
+    padding: 20px;
+    gap: 12px;
+    position: absolute;
+    right: 0;
+    top: 54px;
+    width: 100%;
+    font-size: 16px;
+}
+.mobileNavNone{
+    display: none;
+}
+.displayMobileNav{
+    display: flex;
+}
+.MobileNav .links li{
+    cursor: pointer;
+}
+.MobileNav .links li a{
+    text-decoration: none;
+    color: inherit;
+}
+@media (max-width:992px){
+    .MobileNav{
+        display: flex;
+    }
+    .HW-Nav{
+        display: none;
+    }
+    .navIcons{
+        color: var(--main-color);
+        gap: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

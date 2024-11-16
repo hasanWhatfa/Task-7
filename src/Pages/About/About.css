@@ -1,0 +1,44 @@
+.AboutHeads{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    gap: 15px;
+    .cyberSec{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+.About-heads{
+    font-size: 2.562rem;
+    color: var(--heading-color);
+    font-family:"Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.trustBrandsHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--heading-color);
+    font-weight: bold;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+    h5{
+        margin: 0 60px;
+        font-size: 16px;
+    }
+    .lineHead{
+        height: 1px;
+        background-color:#D4DCFF;
+        flex: 1;
+    }
+}
+.envatosContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+}
